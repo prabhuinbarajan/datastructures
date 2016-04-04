@@ -1,4 +1,4 @@
-
+package stack;
 public class BoundedStack<E> implements Stack<E> {
 	private E[] arr;
 	private int stackptr;

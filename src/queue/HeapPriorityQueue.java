@@ -1,4 +1,4 @@
-
+package queue;
 import java.util.Comparator;
 public class HeapPriorityQueue<E> implements Queue<E> {
 	int capacity;

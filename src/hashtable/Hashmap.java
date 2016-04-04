@@ -1,4 +1,4 @@
-
+package hashtable;
 
 public class Hashmap <K, V> 
 {

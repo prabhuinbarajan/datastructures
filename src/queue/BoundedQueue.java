@@ -1,4 +1,4 @@
-
+package queue;
 public class BoundedQueue<E> implements Queue<E> {
 	int size;
 	E[] items;

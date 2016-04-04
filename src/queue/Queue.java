@@ -1,3 +1,4 @@
+package queue;
 public interface Queue<E> {
 	public boolean isEmpty();
 	public E dequeue();

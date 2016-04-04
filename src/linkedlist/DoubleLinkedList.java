@@ -1,4 +1,4 @@
-
+package linkedlist;
 public class DoubleLinkedList<E> {
 	class Node {
 		E item;

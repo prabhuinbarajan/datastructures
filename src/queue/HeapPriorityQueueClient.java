@@ -1,3 +1,4 @@
+package queue;
 import java.util.Comparator;
 public class HeapPriorityQueueClient {
 

@@ -1,3 +1,4 @@
+package sort;
 import java.util.Comparator;
 
 public class QuickSorter<E> extends AbstractSorter<E> {

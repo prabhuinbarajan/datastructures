@@ -1,3 +1,4 @@
+package sort;
 import java.util.Comparator;
 import  java.lang.reflect.Array;
 public class MergeSorter1<E> extends AbstractSorter<E> {

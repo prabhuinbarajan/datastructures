@@ -1,4 +1,4 @@
-
+package stack;
 public class LinkedListStack<E> implements Stack<E> {
 	int stackptr = 0;
 	

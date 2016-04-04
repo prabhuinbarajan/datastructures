@@ -1,3 +1,4 @@
+package sort;
 import java.util.Comparator;
 
 public class InsertionSorter<E> extends AbstractSorter<E> {
