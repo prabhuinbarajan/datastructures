@@ -36,6 +36,7 @@ public class KnuthShellSorter <E> extends AbstractSorter <E> {
 		result+="avg case: quadratic O(n^3/2) \n";
 		result+="worst case: quadratic O(n^2) \n";
 		result+="ref : http://stackoverflow.com/questions/4833423/shell-sort-java-example\n";
+		result+="ref : http://interactivepython.org/runestone/static/pythonds/SortSearch/TheShellSort.html\n";
 		result+="ref : https://dzone.com/articles/algorithm-week-shell-sort\n";
 		result+="ref :  an adaptive sorting algorithm in that it executes faster when the input is partially sorted.\n";
 		result+="Worst case space complexity: О(n) total, O(1) auxiliaryi\n";
