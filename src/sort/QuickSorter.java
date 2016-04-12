@@ -50,6 +50,7 @@ public class QuickSorter<E> extends AbstractSorter<E> {
 		result+="worst case space complexity : O(n) naive , O(log n) auxillary\n";
 		result+="ref: https://en.wikipedia.org/wiki/Quicksort#Parallelization\n";
 		result+="ref: http://www.algolist.net/Algorithms/Sorting/Quicksort\n";
+		result+="ref: https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/analysis-of-quicksort\n";
 		return result;
 	}
 		

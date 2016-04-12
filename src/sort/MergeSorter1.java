@@ -47,6 +47,7 @@ public class MergeSorter1<E> extends AbstractSorter<E> {
 		result+="worst case: O(n logn) \n";
 		result+="worst case space complexity: О(n) total, O(n) auxiliary\n";
 		result+="ref:https://en.wikipedia.org/wiki/Merge_sort\n";
+		result+="ref:https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/analysis-of-merge-sort\n";
 		return result;
 	}
 }
