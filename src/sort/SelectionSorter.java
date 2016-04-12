@@ -7,17 +7,15 @@ public class SelectionSorter<E> extends AbstractSorter<E> {
 		super(elements, comp);
 	}
 	public void sort() {
-		for(int j=0; j < elements.length -1 ; j++) {
-			int amin = j;
-			for(int i=j+1; i<elements.length; i++ ) {
-				if(comp.compare(elements[i] , elements[amin]) < 0 ) {
-					amin = i;
+		for(int i=0; i < elements.length -1 ; i++) {
+			int amin = i;
+			for(int j=i+1; j<elements.length; j++ ) {
+				if(comp.compare(elements[j] , elements[amin]) < 0 ) {
+					amin = j;
 				}
 			}
-			if(amin!=j) {
-				E tmp = elements[j];
-				elements[j] = elements[amin];
-				elements[amin] = tmp;
+			if(amin!=i) {
+				swap(i, amin);
 			}
 		}
 	}

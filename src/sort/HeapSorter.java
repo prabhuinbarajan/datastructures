@@ -53,6 +53,7 @@ public class HeapSorter <E> extends AbstractSorter<E> {
 		result+="worst case space complexity :O (n)  \n";
 		result+="ref: \n";
 		result+="ref:https://en.wikipedia.org/wiki/Heapsort \n";
+		result+="ref:http://www.ee.ryerson.ca/~courses/coe428/sorting/heapsort.html\n";
 		return result;
 
 	}

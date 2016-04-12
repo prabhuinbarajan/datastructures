@@ -11,3 +11,4 @@ java -cp . sort.SortClient sort.QuickSorter1
 java -cp . sort.SortClient sort.SelectionSorter
 java -cp . sort.SortClient sort.MergeSorter1
 java -cp . sort.SortClient sort.HeapSorter
+java -cp . sort.SortClient sort.HeapSorter1
