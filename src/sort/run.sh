@@ -1,12 +1,12 @@
 #!/bin/bash
-rm -rf *.class
+rm -rf sort/*.class
 #javac SortClient.java
-javac *.java
-java SortClient InsertionSorter
-java SortClient InsertionSorter1
-java SortClient KnuthShellSorter 
-java SortClient BubbleSorter
-java SortClient QuickSorter
-java SortClient SelectionSorter
-java SortClient MergeSorter1
-java SortClient HeapSorter
+javac sort/*.java
+java -cp . sort.SortClient sort.InsertionSorter
+java -cp . sort.SortClient sort.InsertionSorter1
+java -cp . sort.SortClient sort.KnuthShellSorter 
+java -cp . sort.SortClient sort.BubbleSorter
+java -cp . sort.SortClient sort.QuickSorter
+java -cp . sort.SortClient sort.SelectionSorter
+java -cp . sort.SortClient sort.MergeSorter1
+java -cp . sort.SortClient sort.HeapSorter

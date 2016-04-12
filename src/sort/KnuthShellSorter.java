@@ -10,21 +10,19 @@ public class KnuthShellSorter <E> extends AbstractSorter <E> {
 
 	public void sort() {
 		int h = 1;
-		while( (h*3+1) < elements.length) {
+		while( h < elements.length/3) {
 			h=h*3+1;
 		}
 		hcap = h;
 		while(h>0) {
 			
 			System.out.println("h value in iteration " + h);
-			for(int i=h-1; i < elements.length; i++) {
-				int j = i;
-				E val = elements[j];
-				while(j > 0 && comp.compare(elements[j-1], val) > 0) {
-					elements[j] = elements[j-1];
-					j=j-1;
+			for(int i=h; i < elements.length; i++) {
+				for(int j=i; j >=h  && comp.compare(elements[j-h], elements[j]) > 0; j-=h) {
+					E val=elements[j];
+					elements[j] = elements[j-h];
+					elements[j-h] = val;
 				}	
-				elements[j] = val;
 			}
 			h=h/3;
 		}
